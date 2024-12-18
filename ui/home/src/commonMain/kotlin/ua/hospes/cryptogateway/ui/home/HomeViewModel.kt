@@ -22,7 +22,7 @@ class HomeViewModel(
     }
 
     private fun CoroutineScope.testRun() = launch(dispatcher) {
-        placeSellLimitOrders()
+        placeBuyLimitOrders()
     }
 
 
